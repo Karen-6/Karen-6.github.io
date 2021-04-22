@@ -1,0 +1,214 @@
+h1 {
+  color: rgb(250,150,200);
+  text-align: center;
+  font-family: cursive;"Lucida Handwriting";
+  font-weight: bold;
+  font-size: 3.5em;
+}
+#danse{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+#mon_menu{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  transition: .5s background;
+}
+#mon_menu a:link, #mon_menu a:visited {
+  display: inline-block;
+  width:180px;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  padding:12px 14px;
+  margin: auto;
+  font-family: cursive;"Brush Script MT";
+  text-align: center;
+}
+
+#mon_menu a:hover, #mon_menu a:active{
+  border-bottom: solid 2px rgb(255, 0, 128);
+  padding:14px 16px;
+}
+
+nav{
+  padding:14px 16px;
+  margin: 0px;
+  height: 50px;
+  background-color: rgba(255, 0, 255, 0.40);
+  display: flex;
+}
+.navigation {
+  overflow: hidden;
+  background-color: rgba(189 5 134 / 81%);
+  list-style-type: none;
+}
+.navigation a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigation a:hover {
+  background-color:rgba(250 130 200 / 30%) ;
+  color: black;
+}
+#introduction {
+  background-color: rgba(250 150 200 / 30%);
+  text-align: left;
+  font-family: sans-serif, "Raleway";
+}
+#introduction h2 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+  color:rgb(255, 102, 163);
+}
+#introduction p{
+  font-size: 1.2em;
+}
+#généralité {
+  background-color: rgba(181 43 181 / 30%);
+  text-align: left;
+  font-family: sans-serif, "Raleway";
+}
+#généralité h2 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+  color:rgb(153, 51, 255);
+}
+#généralité p{
+    font-size: 1.2em;
+}
+#généralité li{
+  border: solid 1px #cc00ff;
+  margin: 10px;
+      list-style-type: none;
+      text-align: center;
+      font-size: 1.5em;
+}
+#histoire-de-la-danse{
+  background-color: rgba(255, 179, 209,0.5);
+  text-align: justify;
+  font-family: sans-serif, "Raleway";
+  font-size: 1.2em;
+}
+#histoire-de-la-danse h2 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+  color: rgb(255, 102, 163);
+}
+#histoire-de-la-danse p{
+      font-size: 1.2em;
+}
+#histoire-de-la-danse li{
+    border: solid 1px #ff0066;
+    margin: 5px;
+        list-style-type: none;
+        text-align: center;
+        font-size: 1.5em;
+}
+#la-danse-est-un-art{
+  background-color: rgba(181 43 181 / 30%);
+  text-align: left;
+  font-family: sans-serif, "Raleway";
+}
+#la-danse-est-un-art h2 {
+  text-align: center;
+  font-size: 3em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+    color:rgb(153, 51, 255);
+}
+#la-danse-est-un-art p{
+        font-size: 1.2em;
+}
+#la-danse-est-un-art li{
+  border: solid 1px #cc00ff;
+  margin: 5px;
+      list-style-type: none;
+      text-align: center;
+      font-size: 1.5em;
+}
+#les-ecoles-de-danse-les-plus-prestigieuses{
+  background-color: rgba(255, 179, 209,0.5);
+  text-align: left;
+  font-family: sans-serif, "Raleway";
+  font-size: 1.2em;
+}
+#les-ecoles-de-danse-les-plus-prestigieuses h2{
+  text-align: center;
+  font-size: 3.5em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+  color:rgb(255, 102, 163);
+}
+#les-ecoles-de-danse-les-plus-prestigieuses p{
+          font-size: 1.2em;
+}
+#les-ecoles-de-danse-les-plus-prestigieuses li{
+    border: solid 1px #ff0066;
+    margin: 5px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+h3{
+  font-size: 1.5em;
+  text-decoration: overline;
+}
+.citation{
+  font-size: 1.3em;
+}
+#info{
+  background-color: rgb(255, 204, 255);
+}
+#celebrites p{
+  font-family: sans-serif;"Raleway";
+  font-size: 1.3em;
+}
+#titre h3{
+  font-family: cursive;"Lucida Handwriting";
+    text-align: center;
+    font-size: 2em;
+    color: rgba(216,11,62,62%);
+    text-decoration-line: overline;underline;
+}
+#histoire-de-la-danse h2 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+}
+th {
+  background-color: rgb(250,50,100);
+  color: white;
+}
+th {
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+table {
+  width: 50%;
+}
+
+th {
+  height: 50px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+#moi{
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(181 36 138);
+}
+#info{
+  font-size: 1em;
+}
