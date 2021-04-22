@@ -160,13 +160,16 @@ nav{
 }
 h3{
   font-size: 1.5em;
-  text-decoration: overline;
+  text-decoration: underline;
 }
 .citation{
   font-size: 1.3em;
 }
 #info{
   background-color: rgb(255, 204, 255);
+}
+#info p{
+  font-size: 1.5em;
 }
 #celebrites p{
   font-family: sans-serif;"Raleway";
@@ -211,4 +214,27 @@ table, th, td {
 }
 #info{
   font-size: 1em;
+}
+h2{
+  text-align: center;
+  color: rgb(247 189 255);
+  font-size: 3em;
+  text-decoration: overline;
+}
+#programmes p{
+  font-size: 1.5em;
+}
+#programmes{
+  background-color:rgba(255, 230, 255,0.5);
+}
+#programmes li{
+  border: solid 1px #ff0066;
+  margin: 5px;
+      list-style-type: none;
+      text-align: center;
+      font-size: 1.5em;
+}
+#videos{
+max-width: 100%;
+height: auto;
 }
